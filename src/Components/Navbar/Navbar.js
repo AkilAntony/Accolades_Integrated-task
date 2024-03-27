@@ -10,14 +10,15 @@ function Navbar() {
 
    
   return ( 
-    <div className='flex items-center justify-between md:justify-between md:py-8 py-5 bg-black'>
-        <div className='logoContainer ml-3 md:ml-28 '>
+    <div className='flex items-center justify-between
+          md:justify-around bg-black py-6'>
+        <div className='logoContainer ml-3 '>
             <img src="logo.webp" 
             className ='h-full w-64 md:w-72 ' 
             alt="logo" />
         </div>
          
-         <div className={`menu ${isOpen ? "open" : ""} flex items-center md:gap-4 mr-3 text-white 
+         <div className={`menu ${isOpen ? "open" : ""} flex items-center md:gap-6  text-white 
                 `} id="navlink">
             <Link to ='/'
               onClick = {toggleMenu}>
