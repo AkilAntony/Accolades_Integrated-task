@@ -6,7 +6,7 @@ function AboutPlanet() {
 
     
     <div className = 'bg-about h-[90vh] w-full bg-cover bg-no-repeat flex justify-end'>
-        <div className='w-full md:w-5/12  justify-center flex flex-col md:mr-20 '>
+        <div className='w-full md:w-5/12  justify-center flex flex-col md:mr-20 ml-4 mr-2'>
             <p className='text-cyan-600 text-lg font-bold mb-3'>ABOUT OUR PLANET</p>
             <p className='text-3xl text-white font-bold md:text-4xl mt-2'>We are Creatively <br />
                 <span className='text-3xl md:text-4xl text-cyan-600'> Different</span></p>
@@ -23,7 +23,7 @@ function AboutPlanet() {
             </p>
         </div>
     </div>
-    <div className = 'bg-showcase h-'>
+    <div className = 'bg-showcase'>
 
     </div>
     </div>

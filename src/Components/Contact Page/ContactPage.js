@@ -27,7 +27,7 @@ function ContactPage() {
                     Corporate Office [Kochi, Kerala]
                 </p>
                 <div className='conact-for-Kochi flex md:justify-between
-                        justify-center flex-wrap items-center mt-10'>
+                        justify-center flex-wrap items-center md:mt-10'>
                     <div className='text-white flex flex-col items-center justify-center
                         md:mt-0 mt-10'>
                         <FaMapMarker className='text-cyan-500 text-center mb-2 text-2xl'/>

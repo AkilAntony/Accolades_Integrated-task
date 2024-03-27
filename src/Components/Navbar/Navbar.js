@@ -17,7 +17,7 @@ function Navbar() {
             alt="logo" />
         </div>
          
-         <div className={`menu ${isOpen ? "open" : ""} flex items-center md:gap-8 mr-3 text-white 
+         <div className={`menu ${isOpen ? "open" : ""} flex items-center md:gap-4 mr-3 text-white 
                 `} id="navlink">
             <Link to ='/'
               onClick = {toggleMenu}>
