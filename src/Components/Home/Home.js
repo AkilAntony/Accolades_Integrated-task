@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import { Link } from 'react-router-dom'
 import Service from '../services/Service'
 import AboutPlanet from '../About our Planet/AboutPlanet'
 function Home() {
@@ -21,10 +22,11 @@ function Home() {
             <p className='text-gray-300 mt-10'>we have the dexterity to help our client's 
                     business create cost-effective,lucrative advertising campaigns</p>
               
-            <button className='mt-24 px-5 border border-cyan-400 mr-60 md:-ml-36
+            <Link to = '/'><button className='mt-24 px-5 border border-cyan-400 mr-60 md:-ml-36
                       py-2 text-cyan-600'>
                 Know More
             </button> 
+            </Link>
             </div>
         </div>
         <Service />

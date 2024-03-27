@@ -12,7 +12,7 @@ function Navbar() {
   return ( 
     <div className='flex items-center justify-between
           md:justify-around bg-black py-6'>
-        <div className='logoContainer ml-3 '>
+        <div className='logoContainer ml-3 md:-ml-20'>
             <img src="logo.webp" 
             className ='h-full w-64 md:w-72 ' 
             alt="logo" />
